@@ -15,6 +15,9 @@ const nextConfig = {
     "/editor": { page: "/Editor" },
     "/widget": { page: "/Widget" },
   }),
+  typescript: {
+    ignoreBuildErrors: true
+  }
 };
 
 module.exports = withPWA(nextConfig);
